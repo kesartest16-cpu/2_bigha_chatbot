@@ -1,0 +1,154 @@
+{
+  "chatbot_responses": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?", "Greetings"],
+      "response": ["Hello! Welcome to AgriLand Brokers. How can I help you today?"]
+    },
+    {
+      "tag": "buy_land",
+      "patterns": ["I want to buy land", "Show me lands for sale", "Available agricultural plots", "Looking for land to purchase", "Any farmland listings?"],
+      "response": ["Sure! Can you tell me your preferred location and budget?"]
+    },
+    {
+      "tag": "sell_land",
+      "patterns": ["I want to sell my land", "Can I list my land for sale?", "How do I sell farmland?", "Help me sell my plot", "Where to list my land?"],
+      "response": ["Great! Please provide your land details like size, location, and asking price."]
+    },
+    {
+      "tag": "land_prices",
+      "patterns": ["What is the current price of agricultural land?", "How much does farmland cost?", "Tell me land rates", "Price per acre?", "What is the rate per hectare?"],
+      "response": ["Prices vary by region, soil quality, and irrigation availability. Can you specify your location?"]
+    },
+    {
+      "tag": "legal_help",
+      "patterns": ["Do you help with legal documents?", "What paperwork is required?", "Can you help with land registration?", "Ownership verification help?"],
+      "response": ["Yes, we assist with legal documentation and registration. Do you want to check ownership verification or sale deed?"]
+    },
+    {
+      "tag": "loan_finance",
+      "patterns": ["Can I get a loan for buying farmland?", "Do banks give agricultural land loans?", "Finance options for land purchase?", "Help me with agricultural loan"],
+      "response": ["Yes, many banks provide agricultural land loans. Do you want details of required documents?"]
+    },
+    {
+      "tag": "soil_quality",
+      "patterns": ["How is the soil quality?", "Is the soil good for farming?", "What crops can I grow here?", "Tell me about soil fertility"],
+      "response": ["We provide soil quality details along with listings, including crop suitability and fertility reports."]
+    },
+    {
+      "tag": "irrigation",
+      "patterns": ["Does the land have water supply?", "Is there a well or borewell?", "Any irrigation facilities?", "Is the land near a canal?"],
+      "response": ["Yes, many listings include irrigation details such as wells, borewells, or canal access."]
+    },
+    {
+      "tag": "government_schemes",
+      "patterns": ["Are there government schemes for buying farmland?", "Any subsidies available?", "Government support for agriculture?", "Farmer benefits?"],
+      "response": ["Yes, we can guide you on government schemes and subsidies for agricultural land buyers and farmers."]
+    },
+    {
+      "tag": "investment",
+      "patterns": ["Is farmland a good investment?", "Will land value increase?", "What are the returns on agricultural land?", "Should I invest in farmland?"],
+      "response": ["Agricultural land is a stable long-term investment, often appreciating with location and development."]
+    },
+    {
+      "tag": "nearby_facilities",
+      "patterns": ["Is the land near a road?", "Are there markets nearby?", "How far is the nearest town?", "Any nearby schools or hospitals?"],
+      "response": ["Yes, our listings include details about road connectivity, nearby towns, and market facilities."]
+    },
+    {
+      "tag": "farmhouse",
+      "patterns": ["Can I build a farmhouse?", "Farmhouse on agricultural land?", "Permission for farmhouse construction?", "Farmhouse rules?"],
+      "response": ["Yes, in many regions you can build a farmhouse on agricultural land, subject to local regulations."]
+    },
+    {
+      "tag": "leasing",
+      "patterns": ["Can I lease farmland?", "Do you offer land on lease?", "Farmland rental?", "Agricultural land for lease?"],
+      "response": ["Yes, we also have farmland available for lease. Do you want short-term or long-term leasing?"]
+    },
+    {
+      "tag": "climate",
+      "patterns": ["What is the climate like?", "Is this land good for farming?", "Weather conditions?", "Rainfall in this region?"],
+      "response": ["We provide climate details for each land, including rainfall and temperature ranges."]
+    },
+    {
+      "tag": "crop_suitability",
+      "patterns": ["What crops can I grow here?", "Is this land good for wheat?", "Suitable crops?", "Can I grow rice on this land?"],
+      "response": ["Our experts provide crop suitability reports based on soil and climate conditions of the land."]
+    },
+    {
+      "tag": "organic_farming",
+      "patterns": ["Can I do organic farming?", "Is the soil organic certified?", "Organic crop support?", "Organic farmland available?"],
+      "response": ["Yes, we have farmland suitable for organic farming, with soil reports available."]
+    },
+    {
+      "tag": "tax_information",
+      "patterns": ["Do I need to pay tax?", "What are land taxes?", "Agricultural land tax?", "Property tax for farmland?"],
+      "response": ["Agricultural land usually has lower tax, but it depends on state regulations. Do you want details for your state?"]
+    },
+    {
+      "tag": "ownership_transfer",
+      "patterns": ["How is ownership transferred?", "Land registration process?", "Title transfer?", "How do I change ownership?"],
+      "response": ["Ownership transfer is done through land registration and title deed transfer in the sub-registrar office."]
+    },
+    {
+      "tag": "foreign_buyers",
+      "patterns": ["Can foreigners buy farmland?", "NRI purchase of agricultural land?", "Foreign investment rules?", "Non-resident buying land?"],
+      "response": ["In most parts of India, only residents can buy farmland. NRI/foreigners face restrictions under law."]
+    },
+    {
+      "tag": "plots_size",
+      "patterns": ["What is the minimum plot size?", "Small farmland available?", "1 acre plots?", "Large farmland?"],
+      "response": ["We have farmland in various sizes ranging from 1 acre to hundreds of acres. What size do you prefer?"]
+    },
+    {
+      "tag": "installments",
+      "patterns": ["Can I buy land in installments?", "Do you offer EMI options?", "Monthly payments possible?", "Installment plan for land?"],
+      "response": ["Yes, some sellers and banks offer installment/EMI options. Do you want me to share details?"]
+    },
+    {
+      "tag": "resale_value",
+      "patterns": ["What is the resale value?", "Can I resell land?", "How much profit in resale?", "Future value of farmland?"],
+      "response": ["Farmland usually appreciates in value, especially near developing cities or with good irrigation."]
+    },
+    {
+      "tag": "legal_disputes",
+      "patterns": ["Is the land dispute-free?", "Any legal issues?", "Court cases on land?", "Encumbrance check?"],
+      "response": ["Yes, we verify all legal records before listing to ensure the land is dispute-free."]
+    },
+    {
+      "tag": "location_preference",
+      "patterns": ["I want land in Maharashtra", "Looking for land in Punjab", "Show me land near Delhi", "Farmland in Karnataka?"],
+      "response": ["Please share your preferred city or district, and I’ll show you available farmland there."]
+    },
+    {
+      "tag": "fencing",
+      "patterns": ["Is the land fenced?", "Boundary wall available?", "Fencing included?", "Does the plot have clear boundaries?"],
+      "response": ["Some farmlands come with fencing or natural boundaries. Do you want fenced options only?"]
+    },
+    {
+      "tag": "electricity",
+      "patterns": ["Is electricity available?", "Power connection on land?", "Can I get electricity supply?", "Electric poles nearby?"],
+      "response": ["Yes, many farmland listings have electricity connections or nearby access points."]
+    },
+    {
+      "tag": "road_access",
+      "patterns": ["Does the land have road access?", "Connected to main road?", "Any private road?", "Can I reach by vehicle?"],
+      "response": ["Most farmlands we list are connected by village or state roads for easy access."]
+    },
+    {
+      "tag": "documentation",
+      "patterns": ["What documents are needed to buy land?", "Sale deed?", "Patta required?", "7/12 extract for land?"],
+      "response": ["Required documents include sale deed, title records, encumbrance certificate, and local authority approvals."]
+    },
+    {
+      "tag": "registration_cost",
+      "patterns": ["What is the registration cost?", "Stamp duty for farmland?", "How much for land registration?", "Charges for registering land?"],
+      "response": ["Registration costs depend on the state’s stamp duty and property value. Do you want a calculation for your location?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later", "Exit", "Quit"],
+      "response": ["Goodbye! Wishing you the best in your farmland journey."]
+    }
+  ]
+}
