@@ -1406,8 +1406,28 @@
     },
     {
       "tag": "q138",
+      "patterns": ["Hii",
+        "Hello",
+        "Hi",
+        "Greetings",
+        "Hey"
+      ],
+      "response": [
+        "Hello! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "buy_land",
       "patterns": [
-        
-
+        "I want to buy land",
+        "Help me find land for sale",
+        "Looking to purchase land",
+        "Can you assist me in buying land?",
+        "I need assistance in finding land for sale"
+      ],
+      "response": [
+        "Sure! I can help you find land for sale. Please provide me with your location and any specific requirements you have."
+      ]
+    }
   ]
 }
