@@ -1,154 +1,1413 @@
 {
   "chatbot_responses": [
     {
-      "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Is anyone there?", "Greetings"],
-      "response": ["Hello! Welcome to AgriLand Brokers. How can I help you today?"]
+      "tag": "q1",
+      "patterns": [
+        "What is agricultural land?",
+        "Define agricultural land"
+      ],
+      "response": [
+        "Agricultural land is land designated for farming, including growing crops and rearing animals."
+      ]
     },
     {
-      "tag": "buy_land",
-      "patterns": ["I want to buy land", "Show me lands for sale", "Available agricultural plots", "Looking for land to purchase", "Any farmland listings?"],
-      "response": ["Sure! Can you tell me your preferred location and budget?"]
+      "tag": "q2",
+      "patterns": [
+        "What is the difference between agricultural and non-agricultural land?"
+      ],
+      "response": [
+        "Agricultural land is used for farming activities, while non-agricultural land is used for housing, commercial, or industrial purposes."
+      ]
     },
     {
-      "tag": "sell_land",
-      "patterns": ["I want to sell my land", "Can I list my land for sale?", "How do I sell farmland?", "Help me sell my plot", "Where to list my land?"],
-      "response": ["Great! Please provide your land details like size, location, and asking price."]
+      "tag": "q3",
+      "patterns": [
+        "Why is agricultural land important?"
+      ],
+      "response": [
+        "Agricultural land is essential for food security, employment, and economic stability."
+      ]
     },
     {
-      "tag": "land_prices",
-      "patterns": ["What is the current price of agricultural land?", "How much does farmland cost?", "Tell me land rates", "Price per acre?", "What is the rate per hectare?"],
-      "response": ["Prices vary by region, soil quality, and irrigation availability. Can you specify your location?"]
+      "tag": "q1",
+      "patterns": [
+        "What is the process to purchase agricultural land in India?",
+        "How to purchase agriculture land in India?"
+      ],
+      "response": [
+        "The process involves verifying eligibility, checking state laws, conducting due diligence on title and land classification, obtaining necessary approvals, paying stamp duty, and registering the sale deed."
+      ]
     },
     {
-      "tag": "legal_help",
-      "patterns": ["Do you help with legal documents?", "What paperwork is required?", "Can you help with land registration?", "Ownership verification help?"],
-      "response": ["Yes, we assist with legal documentation and registration. Do you want to check ownership verification or sale deed?"]
+      "tag": "q2",
+      "patterns": [
+        "Can we save tax by buying agricultural land?",
+        "Are there tax benefits of buying agricultural land?"
+      ],
+      "response": [
+        "Yes, agricultural income is exempt from income tax in India under Section 10(1) of the Income Tax Act, but other taxes like capital gains may still apply."
+      ]
     },
     {
-      "tag": "loan_finance",
-      "patterns": ["Can I get a loan for buying farmland?", "Do banks give agricultural land loans?", "Finance options for land purchase?", "Help me with agricultural loan"],
-      "response": ["Yes, many banks provide agricultural land loans. Do you want details of required documents?"]
+      "tag": "q3",
+      "patterns": [
+        "Who is eligible to buy agricultural land in India?",
+        "Can anyone buy agricultural land in India?"
+      ],
+      "response": [
+        "Eligibility depends on state laws; in most states, only farmers or people engaged in agricultural activities can buy agricultural land."
+      ]
     },
     {
-      "tag": "soil_quality",
-      "patterns": ["How is the soil quality?", "Is the soil good for farming?", "What crops can I grow here?", "Tell me about soil fertility"],
-      "response": ["We provide soil quality details along with listings, including crop suitability and fertility reports."]
+      "tag": "q4",
+      "patterns": [
+        "What documents are required to buy agricultural land in India?",
+        "List of documents for agricultural land purchase in India"
+      ],
+      "response": [
+        "Key documents include the title deed, sale deed, encumbrance certificate, land records, tax receipts, and identity/address proofs."
+      ]
     },
     {
-      "tag": "irrigation",
-      "patterns": ["Does the land have water supply?", "Is there a well or borewell?", "Any irrigation facilities?", "Is the land near a canal?"],
-      "response": ["Yes, many listings include irrigation details such as wells, borewells, or canal access."]
+      "tag": "q5",
+      "patterns": [
+        "Is agricultural land purchase allowed for investment purposes?",
+        "Can agricultural land be purchased as investment?"
+      ],
+      "response": [
+        "Yes, but it must still be used for agricultural purposes unless converted legally for non-agricultural use."
+      ]
     },
     {
-      "tag": "government_schemes",
-      "patterns": ["Are there government schemes for buying farmland?", "Any subsidies available?", "Government support for agriculture?", "Farmer benefits?"],
-      "response": ["Yes, we can guide you on government schemes and subsidies for agricultural land buyers and farmers."]
+      "tag": "q6",
+      "patterns": [
+        "How do I verify the ownership of agricultural land in India before buying?",
+        "How to check agricultural land ownership?"
+      ],
+      "response": [
+        "Ownership can be verified through title deeds, revenue records, encumbrance certificates, and online land records portals of respective states."
+      ]
     },
     {
-      "tag": "investment",
-      "patterns": ["Is farmland a good investment?", "Will land value increase?", "What are the returns on agricultural land?", "Should I invest in farmland?"],
-      "response": ["Agricultural land is a stable long-term investment, often appreciating with location and development."]
+      "tag": "q7",
+      "patterns": [
+        "What is the average cost of agricultural land in India?",
+        "How much does agricultural land cost in India?"
+      ],
+      "response": [
+        "The cost varies widely depending on location, fertility, and infrastructure, ranging from a few lakhs per acre in rural areas to crores near cities."
+      ]
     },
     {
-      "tag": "nearby_facilities",
-      "patterns": ["Is the land near a road?", "Are there markets nearby?", "How far is the nearest town?", "Any nearby schools or hospitals?"],
-      "response": ["Yes, our listings include details about road connectivity, nearby towns, and market facilities."]
+      "tag": "q8",
+      "patterns": [
+        "Can agricultural land in India be converted to residential land?",
+        "How to convert agricultural land to residential land?"
+      ],
+      "response": [
+        "Yes, but only with government approval and by paying conversion charges under local zoning and land-use laws."
+      ]
     },
     {
-      "tag": "farmhouse",
-      "patterns": ["Can I build a farmhouse?", "Farmhouse on agricultural land?", "Permission for farmhouse construction?", "Farmhouse rules?"],
-      "response": ["Yes, in many regions you can build a farmhouse on agricultural land, subject to local regulations."]
+      "tag": "q9",
+      "patterns": [
+        "Can I get agricultural land title verified online?",
+        "How to check agricultural land ownership online?"
+      ],
+      "response": [
+        "Yes, many states provide online land record portals where you can check title, ownership, and encumbrances."
+      ]
     },
     {
-      "tag": "leasing",
-      "patterns": ["Can I lease farmland?", "Do you offer land on lease?", "Farmland rental?", "Agricultural land for lease?"],
-      "response": ["Yes, we also have farmland available for lease. Do you want short-term or long-term leasing?"]
+      "tag": "q10",
+      "patterns": [
+        "What are the risks involved in buying agricultural land in India?",
+        "Risks in buying agricultural land?"
+      ],
+      "response": [
+        "Risks include unclear titles, legal disputes, zoning restrictions, tenancy claims, and issues with land conversion permissions."
+      ]
     },
     {
-      "tag": "climate",
-      "patterns": ["What is the climate like?", "Is this land good for farming?", "Weather conditions?", "Rainfall in this region?"],
-      "response": ["We provide climate details for each land, including rainfall and temperature ranges."]
+      "tag": "q11",
+      "patterns": [
+        "How can 2Bigha help with purchasing agricultural land in India?",
+        "What services does 2Bigha offer for buying agricultural land?"
+      ],
+      "response": [
+        "2Bigha helps buyers by verifying land, providing listings, offering consultation, and ensuring transparency in the purchase process."
+      ]
     },
     {
-      "tag": "crop_suitability",
-      "patterns": ["What crops can I grow here?", "Is this land good for wheat?", "Suitable crops?", "Can I grow rice on this land?"],
-      "response": ["Our experts provide crop suitability reports based on soil and climate conditions of the land."]
+      "tag": "q12",
+      "patterns": [
+        "Is it necessary to pay stamp duty when buying agricultural land in India?",
+        "Do I need to pay stamp duty for agricultural land purchase?"
+      ],
+      "response": [
+        "Yes, stamp duty and registration charges must be paid as per state laws when buying agricultural land."
+      ]
     },
     {
-      "tag": "organic_farming",
-      "patterns": ["Can I do organic farming?", "Is the soil organic certified?", "Organic crop support?", "Organic farmland available?"],
-      "response": ["Yes, we have farmland suitable for organic farming, with soil reports available."]
+      "tag": "q13",
+      "patterns": [
+        "How can I find verified agricultural land in India for sale?",
+        "Where can I buy verified agricultural land in India?"
+      ],
+      "response": [
+        "You can find verified agricultural land through government records, trusted real estate platforms like 2Bigha, and local authorities."
+      ]
     },
     {
-      "tag": "tax_information",
-      "patterns": ["Do I need to pay tax?", "What are land taxes?", "Agricultural land tax?", "Property tax for farmland?"],
-      "response": ["Agricultural land usually has lower tax, but it depends on state regulations. Do you want details for your state?"]
+      "tag": "q14",
+      "patterns": [
+        "Are there any tax benefits when buying agricultural land in India?",
+        "What tax benefits are available for agricultural land buyers?"
+      ],
+      "response": [
+        "Agricultural income is tax-free in India, and certain exemptions on capital gains are available if proceeds are reinvested in agricultural land."
+      ]
     },
     {
-      "tag": "ownership_transfer",
-      "patterns": ["How is ownership transferred?", "Land registration process?", "Title transfer?", "How do I change ownership?"],
-      "response": ["Ownership transfer is done through land registration and title deed transfer in the sub-registrar office."]
+      "tag": "q15",
+      "patterns": [
+        "Why agricultural land is cheaper than residential?",
+        "Why is agricultural land more affordable than residential land?"
+      ],
+      "response": [
+        "Agricultural land is cheaper because of land-use restrictions, limited buyers, fewer amenities, and lower development potential."
+      ]
     },
     {
-      "tag": "foreign_buyers",
-      "patterns": ["Can foreigners buy farmland?", "NRI purchase of agricultural land?", "Foreign investment rules?", "Non-resident buying land?"],
-      "response": ["In most parts of India, only residents can buy farmland. NRI/foreigners face restrictions under law."]
+      "tag": "q16",
+      "patterns": [
+        "Is it better to buy plot or agricultural land?",
+        "Which is better investment: plot or agricultural land?"
+      ],
+      "response": [
+        "Residential plots are better for quick development and resale, while agricultural land is good for long-term investment and tax benefits."
+      ]
     },
     {
-      "tag": "plots_size",
-      "patterns": ["What is the minimum plot size?", "Small farmland available?", "1 acre plots?", "Large farmland?"],
-      "response": ["We have farmland in various sizes ranging from 1 acre to hundreds of acres. What size do you prefer?"]
+      "tag": "q17",
+      "patterns": [
+        "Does zoning regulation affect the cost of agricultural land in India?",
+        "Do zoning laws impact agricultural land value?"
+      ],
+      "response": [
+        "Yes, zoning regulations restrict usage, and land in areas with strict zoning is often priced lower than in areas with flexible rules."
+      ]
     },
     {
-      "tag": "installments",
-      "patterns": ["Can I buy land in installments?", "Do you offer EMI options?", "Monthly payments possible?", "Installment plan for land?"],
-      "response": ["Yes, some sellers and banks offer installment/EMI options. Do you want me to share details?"]
+      "tag": "q18",
+      "patterns": [
+        "Why is agricultural land not as developed as residential land areas?",
+        "Why does agricultural land have less development?"
+      ],
+      "response": [
+        "Because of zoning laws, lack of infrastructure, and restrictions on converting agricultural land into non-agricultural purposes."
+      ]
     },
     {
-      "tag": "resale_value",
-      "patterns": ["What is the resale value?", "Can I resell land?", "How much profit in resale?", "Future value of farmland?"],
-      "response": ["Farmland usually appreciates in value, especially near developing cities or with good irrigation."]
+      "tag": "q19",
+      "patterns": [
+        "Why does agricultural land have fewer buyers than residential plots?",
+        "Why is demand for agricultural land lower?"
+      ],
+      "response": [
+        "Residential plots attract more buyers due to development opportunities, while agricultural land buyers are limited to farmers or investors."
+      ]
     },
     {
-      "tag": "legal_disputes",
-      "patterns": ["Is the land dispute-free?", "Any legal issues?", "Court cases on land?", "Encumbrance check?"],
-      "response": ["Yes, we verify all legal records before listing to ensure the land is dispute-free."]
+      "tag": "q20",
+      "patterns": [
+        "What is the difference between agricultural land and residential land?",
+        "How is agricultural land different from residential?"
+      ],
+      "response": [
+        "Agricultural land is used for farming activities, while residential land is meant for housing and urban development."
+      ]
     },
     {
-      "tag": "location_preference",
-      "patterns": ["I want land in Maharashtra", "Looking for land in Punjab", "Show me land near Delhi", "Farmland in Karnataka?"],
-      "response": ["Please share your preferred city or district, and I’ll show you available farmland there."]
+      "tag": "q21",
+      "patterns": [
+        "Do state policies impact the value of agricultural land in India?",
+        "Do state laws affect agricultural land prices?"
+      ],
+      "response": [
+        "Yes, each state has different restrictions on purchase, conversion, and ownership, which directly affect agricultural land value."
+      ]
     },
     {
-      "tag": "fencing",
-      "patterns": ["Is the land fenced?", "Boundary wall available?", "Fencing included?", "Does the plot have clear boundaries?"],
-      "response": ["Some farmlands come with fencing or natural boundaries. Do you want fenced options only?"]
+      "tag": "q22",
+      "patterns": [
+        "Is the location of agricultural land a factor in its lower price?",
+        "Does location affect agricultural land price?"
+      ],
+      "response": [
+        "Yes, agricultural land in remote or rural areas is cheaper due to lack of connectivity, infrastructure, and demand."
+      ]
     },
     {
-      "tag": "electricity",
-      "patterns": ["Is electricity available?", "Power connection on land?", "Can I get electricity supply?", "Electric poles nearby?"],
-      "response": ["Yes, many farmland listings have electricity connections or nearby access points."]
+      "tag": "q23",
+      "patterns": [
+        "Is agricultural land undervalued due to lack of amenities?",
+        "Does lack of facilities lower agricultural land value?"
+      ],
+      "response": [
+        "Yes, absence of amenities like roads, electricity, and water supply makes agricultural land less expensive compared to residential plots."
+      ]
     },
     {
-      "tag": "road_access",
-      "patterns": ["Does the land have road access?", "Connected to main road?", "Any private road?", "Can I reach by vehicle?"],
-      "response": ["Most farmlands we list are connected by village or state roads for easy access."]
+      "tag": "q24",
+      "patterns": [
+        "Why do most investors prefer residential land over agricultural land?",
+        "Why investors choose residential land more?"
+      ],
+      "response": [
+        "Residential land offers faster returns, easier resale, and development opportunities, while agricultural land has usage restrictions."
+      ]
     },
     {
-      "tag": "documentation",
-      "patterns": ["What documents are needed to buy land?", "Sale deed?", "Patta required?", "7/12 extract for land?"],
-      "response": ["Required documents include sale deed, title records, encumbrance certificate, and local authority approvals."]
+      "tag": "q25",
+      "patterns": [
+        "Are land use limitations the main reason agricultural land is cheaper?",
+        "Do usage restrictions reduce agricultural land price?"
+      ],
+      "response": [
+        "Yes, since agricultural land cannot be freely used for commercial or residential purposes, its price remains lower."
+      ]
     },
     {
-      "tag": "registration_cost",
-      "patterns": ["What is the registration cost?", "Stamp duty for farmland?", "How much for land registration?", "Charges for registering land?"],
-      "response": ["Registration costs depend on the state’s stamp duty and property value. Do you want a calculation for your location?"]
+      "tag": "q26",
+      "patterns": [
+        "Why are permissions for agricultural land development harder to obtain?",
+        "Why is converting agricultural land difficult?"
+      ],
+      "response": [
+        "Because agricultural land is protected under state land-use laws, and development requires legal conversion and government approvals."
+      ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later", "Exit", "Quit"],
-      "response": ["Goodbye! Wishing you the best in your farmland journey."]
-    }
+      "tag": "q27",
+      "patterns": [
+        "Do maintenance costs influence why agricultural land is priced lower?",
+        "Does maintenance affect agricultural land price?"
+      ],
+      "response": [
+        "Yes, agricultural land requires ongoing maintenance for farming, but generates limited income, keeping prices lower."
+      ]
+    },
+    {
+      "tag": "q28",
+      "patterns": [
+        "How 2Bigha Helps You Discover Verified Land for Sale Near Me?",
+        "What does 2Bigha do to find land near me?"
+      ],
+      "response": [
+        "2Bigha provides verified listings, filters, legal checks, and expert consultation to help buyers find genuine land near them."
+      ]
+    },
+    {
+      "tag": "q29",
+      "patterns": [
+        "How does 2Bigha verify land for sale near me before listing it?",
+        "Does 2Bigha check documents for land listings?"
+      ],
+      "response": [
+        "Yes, 2Bigha verifies ownership documents, legal approvals, and classification records before listing land for sale."
+      ]
+    },
+    {
+      "tag": "q30",
+      "patterns": [
+        "Is the land for sale near me on 2Bigha legally approved?",
+        "Does 2Bigha list only legal land?"
+      ],
+      "response": [
+        "Yes, only legally approved and verified properties are listed on 2Bigha."
+      ]
+    },
+    {
+      "tag": "q31",
+      "patterns": [
+        "Can I find agricultural land for sale near me using 2Bigha?",
+        "Does 2Bigha show farmland near my location?"
+      ],
+      "response": [
+        "Yes, 2Bigha allows you to search and filter agricultural land for sale based on your location."
+      ]
+    },
+    {
+      "tag": "q32",
+      "patterns": [
+        "Does 2Bigha provide location filters for land for sale near me?",
+        "Can I filter land listings by location on 2Bigha?"
+      ],
+      "response": [
+        "Yes, 2Bigha offers location-based filters to narrow down land search results."
+      ]
+    },
+    {
+      "tag": "q33",
+      "patterns": [
+        "How quickly can I find land for sale near me through 2Bigha?",
+        "Does 2Bigha provide fast search results for nearby land?"
+      ],
+      "response": [
+        "You can instantly find verified land near you on 2Bigha using filters and search options."
+      ]
+    },
+    {
+      "tag": "q34",
+      "patterns": [
+        "Can I contact sellers directly for land for sale near me on 2Bigha?",
+        "Does 2Bigha allow direct contact with sellers?"
+      ],
+      "response": [
+        "Yes, buyers can contact verified sellers directly through the 2Bigha platform."
+      ]
+    },
+    {
+      "tag": "q35",
+      "patterns": [
+        "Can I search land for sale near me by budget on 2Bigha?",
+        "Does 2Bigha offer budget filters for land search?"
+      ],
+      "response": [
+        "Yes, 2Bigha allows you to filter land listings based on your budget."
+      ]
+    },
+    {
+      "tag": "q36",
+      "patterns": [
+        "What documents does 2Bigha check for verified land for sale near me?",
+        "Which papers are verified by 2Bigha before listing land?"
+      ],
+      "response": [
+        "2Bigha verifies title deeds, encumbrance certificates, tax receipts, and land classification documents."
+      ]
+    },
+    {
+      "tag": "q37",
+      "patterns": [
+        "How does 2Bigha protect buyers searching for land for sale near me?",
+        "What safety measures does 2Bigha take for buyers?"
+      ],
+      "response": [
+        "2Bigha ensures only legally verified listings, secure communication, and expert consultation for buyers."
+      ]
+    },
+    {
+      "tag": "q38",
+      "patterns": [
+        "Can I post my own land for sale near me listing on 2Bigha?",
+        "Does 2Bigha allow sellers to list their land?"
+      ],
+      "response": [
+        "Yes, landowners can list their property for sale on 2Bigha after verification."
+      ]
+    },
+    {
+      "tag": "q39",
+      "patterns": [
+        "Can NRIs find land for sale near me through 2Bigha?",
+        "Does 2Bigha offer services for NRI buyers?"
+      ],
+      "response": [
+        "Yes, NRIs can explore and purchase verified land listings through 2Bigha."
+      ]
+    },
+    {
+      "tag": "q40",
+      "patterns": [
+        "Is it safe to invest in land for sale near me using 2Bigha?",
+        "Does 2Bigha ensure safe land investment?"
+      ],
+      "response": [
+        "Yes, since 2Bigha verifies documents and ensures transparency, it is safe to invest through the platform."
+      ]
+    },
+    {
+      "tag": "q41",
+      "patterns": [
+        "Does 2Bigha offer expert consultation for buying land for sale near me?",
+        "Can I get advice from experts on 2Bigha?"
+      ],
+      "response": [
+        "Yes, 2Bigha provides expert consultation to assist with legal, financial, and property-related queries."
+      ]
+    },
+    {
+      "tag": "q42",
+      "patterns": [
+        "What makes 2Bigha trustworthy for finding land for sale near me?",
+        "Why should I trust 2Bigha for land purchases?"
+      ],
+      "response": [
+        "2Bigha is trustworthy because it lists only verified properties, checks documentation, and offers buyer protection services."
+      ]
+    },
+    {
+      "tag": "q43",
+      "patterns": [
+        "Can I see property images and maps of land for sale near me on 2Bigha?",
+        "Does 2Bigha provide images and maps of properties?"
+      ],
+      "response": [
+        "Yes, 2Bigha provides photos, videos, and map-based views of listed properties."
+      ]
+    },
+    {
+      "tag": "q44",
+      "patterns": [
+        "How often is land for sale near me added to 2Bigha?",
+        "Does 2Bigha update land listings regularly?"
+      ],
+      "response": [
+        "2Bigha updates land listings frequently, with new verified properties added regularly."
+      ]
+    },
+    {
+      "tag": "q45",
+      "patterns": [
+        "How to Calculate Farm Size with an Agricultural Land Area Calculator?",
+        "How to use farm size calculator?"
+      ],
+      "response": [
+        "You can calculate farm size using GPS data, measurements, or online agricultural land area calculators."
+      ]
+    },
+    {
+      "tag": "q46",
+      "patterns": [
+        "What is an agricultural land area calculator?",
+        "Define agricultural land area calculator"
+      ],
+      "response": [
+        "It is a tool used to measure and calculate the size of farmland in units like acres, bigha, or hectares."
+      ]
+    },
+    {
+      "tag": "q47",
+      "patterns": [
+        "How can I calculate farm size using an agricultural land area calculator?",
+        "Steps to calculate farm size with land calculator"
+      ],
+      "response": [
+        "You can input GPS coordinates, map points, or manual measurements into the calculator to get farm size."
+      ]
+    },
+    {
+      "tag": "q48",
+      "patterns": [
+        "Can I calculate land in acres using an agricultural land area calculator?",
+        "Does land area calculator support acre conversion?"
+      ],
+      "response": [
+        "Yes, most calculators allow conversion of land area into acres."
+      ]
+    },
+    {
+      "tag": "q49",
+      "patterns": [
+        "How do you calculate the area of a farm?",
+        "Methods to calculate farm area"
+      ],
+      "response": [
+        "The farm area can be calculated using land survey methods, GPS mapping, or digital land calculators."
+      ]
+    },
+    {
+      "tag": "q50",
+      "patterns": [
+        "How do you measure agricultural land area?",
+        "Ways to measure farm land area"
+      ],
+      "response": [
+        "Agricultural land area can be measured using traditional chain surveys, GPS tools, or online calculators."
+      ]
+    },
+    {
+      "tag": "q51",
+      "patterns": [
+        "What tools do I need to calculate my farm size?",
+        "Tools required for farmland measurement"
+      ],
+      "response": [
+        "You can use GPS devices, measuring tapes, land survey equipment, or mobile apps for calculating farm size."
+      ]
+    },
+    {
+      "tag": "q52",
+      "patterns": [
+        "Can I calculate farm size using GPS coordinates?",
+        "How to measure farmland using GPS?"
+      ],
+      "response": [
+        "Yes, GPS coordinates can be used to calculate farm boundaries and area accurately."
+      ]
+    },
+    {
+      "tag": "q53",
+      "patterns": [
+        "Is it possible to measure irregular-shaped land?",
+        "How to measure farmland with irregular shape?"
+      ],
+      "response": [
+        "Yes, irregular-shaped land can be measured using GPS mapping tools or specialized land measurement software."
+      ]
+    },
+    {
+      "tag": "q54",
+      "patterns": [
+        "How do you calculate farm size?",
+        "Steps to calculate farmland size"
+      ],
+      "response": [
+        "Farm size can be calculated by dividing land into measurable sections and summing the area, or by using GPS/digital calculators."
+      ]
+    },
+    {
+      "tag": "q55",
+      "patterns": [
+        "Why is it important to calculate farm size accurately?",
+        "Importance of accurate farmland measurement"
+      ],
+      "response": [
+        "Accurate farm size helps in fair transactions, proper taxation, planning irrigation, and applying government schemes."
+      ]
+    },
+    {
+      "tag": "q56",
+      "patterns": [
+        "Do I need internet access to use a land area calculator?",
+        "Can land calculator work offline?"
+      ],
+      "response": [
+        "Some calculators work offline using GPS, while online tools require internet access."
+      ]
+    },
+    {
+      "tag": "q57",
+      "patterns": [
+        "Who can use an agricultural land area calculator?",
+        "Is farmland calculator for farmers only?"
+      ],
+      "response": [
+        "Anyone including farmers, buyers, surveyors, and investors can use an agricultural land area calculator."
+      ]
+    },
+    {
+      "tag": "q58",
+      "patterns": [
+        "How accurate are satellite-based land area calculators?",
+        "Are satellite farm calculators reliable?"
+      ],
+      "response": [
+        "Satellite-based calculators are generally accurate but may vary slightly due to image resolution and boundary clarity."
+      ]
+    },
+    {
+      "tag": "q59",
+      "patterns": [
+        "Is the agricultural land area calculator accurate for large farms?",
+        "Can large farm area be measured with calculator?"
+      ],
+      "response": [
+        "Yes, most modern calculators are accurate for both small and large farms."
+      ]
+    },
+    {
+      "tag": "q60",
+      "patterns": [
+        "What is the formula to calculate land area?",
+        "Mathematical formula for calculating land"
+      ],
+      "response": [
+        "The basic formula is length × breadth for rectangular plots, or geometry-based calculations for irregular shapes."
+      ]
+    },
+    {
+      "tag": "q61",
+      "patterns": [
+        "Tax Benefits of Buying Farm Land for Sale in India",
+        "Are there tax exemptions on farmland purchase?"
+      ],
+      "response": [
+        "Agricultural income is tax-exempt, and owning farmland may provide benefits under capital gains tax exemptions."
+      ]
+    },
+    {
+      "tag": "q62",
+      "patterns": [
+        "What is the best way to sell a land for agriculture?",
+        "How to sell agricultural land easily?"
+      ],
+      "response": [
+        "The best way is to list on trusted platforms like 2Bigha, verify documents, and reach genuine buyers."
+      ]
+    },
+    {
+      "tag": "q63",
+      "patterns": [
+        "What's the best website to find farmland for sale?",
+        "Which online platform is best for buying farmland?"
+      ],
+      "response": [
+        "Websites like 2Bigha are dedicated to verified farmland sales and purchases."
+      ]
+    },
+    {
+      "tag": "q64",
+      "patterns": [
+        "Why are investors interested in buying farmland?",
+        "Benefits of investing in farmland"
+      ],
+      "response": [
+        "Farmland offers long-term appreciation, tax benefits, and stable investment returns."
+      ]
+    },
+    {
+      "tag": "q65",
+      "patterns": [
+        "What types of farm land are available for sale?",
+        "Different types of farmland in India"
+      ],
+      "response": [
+        "Types include irrigated land, dry land, orchards, plantations, and pasture land."
+      ]
+    },
+    {
+      "tag": "q66",
+      "patterns": [
+        "What should I consider when purchasing farm land?",
+        "Factors before buying farmland"
+      ],
+      "response": [
+        "Check soil quality, water availability, legal clearances, access to roads, and land title."
+      ]
+    },
+    {
+      "tag": "q67",
+      "patterns": [
+        "What is the average size of farm land available for sale?",
+        "Typical farmland size in India"
+      ],
+      "response": [
+        "Average farmland size varies, but in India, it typically ranges from 1 acre to 10 acres per sale listing."
+      ]
+    },
+    {
+      "tag": "q68",
+      "patterns": [
+        "Is it necessary to have farming experience to buy farm land?",
+        "Do I need to be a farmer to purchase farmland?"
+      ],
+      "response": [
+        "In many states, only farmers or those with agricultural background can buy farmland, but experience is not mandatory."
+      ]
+    },
+    {
+      "tag": "q69",
+      "patterns": [
+        "How can I find farm land for sale?",
+        "Where to search for agricultural land?"
+      ],
+      "response": [
+        "You can find farmland through online portals, brokers, government auctions, or platforms like 2Bigha."
+      ]
+    },
+    {
+      "tag": "q70",
+      "patterns": [
+        "What are the zoning regulations for farm land?",
+        "Farm land zoning rules in India"
+      ],
+      "response": [
+        "Zoning regulations dictate that farmland must be used only for agricultural purposes unless officially converted."
+      ]
+    },
+    {
+      "tag": "q71",
+      "patterns": [
+        "Can non-resident Indians (NRIs) buy farm land in India?",
+        "Are NRIs allowed to purchase agricultural land?"
+      ],
+      "response": [
+        "No, NRIs are generally not permitted to buy agricultural land, plantation property, or farmhouses in India."
+      ]
+    },
+    {
+      "tag": "q72",
+      "patterns": [
+        "What documents are needed to buy farm land?",
+        "Paperwork required for farmland purchase"
+      ],
+      "response": [
+        "Documents include sale deed, title deed, encumbrance certificate, RTC (Record of Rights), and tax receipts."
+      ]
+    },
+    {
+      "tag": "q73",
+      "patterns": [
+        "Can farm land be converted for residential or commercial use?",
+        "How to convert farmland into residential plot?"
+      ],
+      "response": [
+        "Yes, farmland can be converted by applying for land use conversion with the local revenue authority."
+      ]
+    },
+    {
+      "tag": "q74",
+      "patterns": [
+        "What is the average cost of farm land in India?",
+        "Price of agricultural land per acre"
+      ],
+      "response": [
+        "The cost varies by state and location, ranging from ₹2 lakhs to over ₹1 crore per acre."
+      ]
+    },
+    {
+      "tag": "q75",
+      "patterns": [
+        "Can I lease farm land instead of buying?",
+        "Is farmland available for lease?"
+      ],
+      "response": [
+        "Yes, farmland can be leased for cultivation or commercial farming based on agreements."
+      ]
+    },
+    {
+      "tag": "q76",
+      "patterns": [
+        "What are the risks of buying farm land?",
+        "Problems with agricultural land purchase"
+      ],
+      "response": [
+        "Risks include unclear titles, disputed ownership, water scarcity, and land use restrictions."
+      ]
+    },
+    {
+      "tag": "q77",
+      "patterns": [
+        "Can farm land be inherited?",
+        "Is farmland transferable to heirs?"
+      ],
+      "response": [
+        "Yes, farm land can be inherited by legal heirs according to succession laws."
+      ]
+    },
+    {
+      "tag": "q78",
+      "patterns": [
+        "Is there a loan facility to buy farm land?",
+        "Can I get a bank loan for agricultural land?"
+      ],
+      "response": [
+        "Yes, many banks and NBFCs offer loans for purchasing agricultural land."
+      ]
+    },
+    {
+      "tag": "q79",
+      "patterns": [
+        "What is organic farmland?",
+        "Define organic farm land"
+      ],
+      "response": [
+        "Organic farmland is land used for cultivation without chemical fertilizers or pesticides."
+      ]
+    },
+    {
+      "tag": "q80",
+      "patterns": [
+        "Can foreigners buy agricultural land in India?",
+        "Are foreigners allowed to own farmland in India?"
+      ],
+      "response": [
+        "No, foreigners are not allowed to buy agricultural land in India."
+      ]
+    },
+    {
+      "tag": "q81",
+      "patterns": [
+        "How do I verify ownership of agricultural land?",
+        "How to check farmland ownership details?"
+      ],
+      "response": [
+        "Ownership can be verified through title deed, encumbrance certificate, and land records at the revenue office."
+      ]
+    },
+    {
+      "tag": "q82",
+      "patterns": [
+        "What is encumbrance certificate in farmland?",
+        "Why is encumbrance certificate important?"
+      ],
+      "response": [
+        "An encumbrance certificate proves that the land is free from legal dues or mortgages."
+      ]
+    },
+    {
+      "tag": "q83",
+      "patterns": [
+        "Can agricultural land be sold without registration?",
+        "Is land registration mandatory for selling farmland?"
+      ],
+      "response": [
+        "No, registration is mandatory for selling agricultural land legally."
+      ]
+    },
+    {
+      "tag": "q84",
+      "patterns": [
+        "What are the benefits of owning farm land?",
+        "Why should I invest in farmland?"
+      ],
+      "response": [
+        "Owning farmland provides stable returns, food security, tax benefits, and long-term value appreciation."
+      ]
+    },
+    {
+      "tag": "q85",
+      "patterns": [
+        "What is khata certificate in land?",
+        "Explain khata in farmland ownership"
+      ],
+      "response": [
+        "Khata certificate is a property account document used to calculate taxes and confirm property ownership."
+      ]
+    },
+    {
+      "tag": "q86",
+      "patterns": [
+        "What is mutation of agricultural land?",
+        "Define land mutation"
+      ],
+      "response": [
+        "Mutation is the process of updating ownership details in revenue records after sale or inheritance."
+      ]
+    },
+    {
+      "tag": "q87",
+      "patterns": [
+        "Can agricultural land be gifted?",
+        "Is farmland transferable as a gift?"
+      ],
+      "response": [
+        "Yes, agricultural land can be gifted through a registered gift deed."
+      ]
+    },
+    {
+      "tag": "q88",
+      "patterns": [
+        "Can I build a house on agricultural land?",
+        "Residential construction on farmland"
+      ],
+      "response": [
+        "No, you cannot build a house on agricultural land without land use conversion approval."
+      ]
+    },
+    {
+      "tag": "q89",
+      "patterns": [
+        "What is agricultural land ceiling?",
+        "Maximum limit of farmland ownership"
+      ],
+      "response": [
+        "Land ceiling is the maximum amount of farmland a person or family can legally own, varying by state."
+      ]
+    },
+    {
+      "tag": "q90",
+      "patterns": [
+        "Can I start a farmhouse on agricultural land?",
+        "Is farmhouse construction allowed on farmland?"
+      ],
+      "response": [
+        "Yes, farmhouse construction is allowed but must follow local zoning and state regulations."
+      ]
+    },
+    {
+      "tag": "q91",
+      "patterns": [
+        "What crops can be grown on agricultural land?",
+        "Which crops are suitable for farmland?"
+      ],
+      "response": [
+        "The crops depend on soil, water, and climate. Common crops include rice, wheat, pulses, sugarcane, and vegetables."
+      ]
+    },
+    {
+      "tag": "q92",
+      "patterns": [
+        "What is barren agricultural land?",
+        "Define barren farmland"
+      ],
+      "response": [
+        "Barren agricultural land is land that is not fit for cultivation due to poor soil quality or lack of water."
+      ]
+    },
+    {
+      "tag": "q93",
+      "patterns": [
+        "What is fallow land in agriculture?",
+        "Explain fallow farmland"
+      ],
+      "response": [
+        "Fallow land is agricultural land that is left uncultivated for one or more seasons to restore soil fertility."
+      ]
+    },
+    {
+      "tag": "q94",
+      "patterns": [
+        "What are the government schemes for farm land buyers?",
+        "Schemes available for farmland purchase"
+      ],
+      "response": [
+        "Schemes include agricultural credit support, PM Kisan Samman Nidhi, and state-specific subsidy programs."
+      ]
+    },
+    {
+      "tag": "q95",
+      "patterns": [
+        "What is agricultural zoning?",
+        "Explain zoning in farmland"
+      ],
+      "response": [
+        "Agricultural zoning restricts land use to farming and related activities to protect farmland from urbanization."
+      ]
+    },
+    {
+      "tag": "q96",
+      "patterns": [
+        "What is rainfed agricultural land?",
+        "Define rainfed farming land"
+      ],
+      "response": [
+        "Rainfed agricultural land depends entirely on rainfall for irrigation, without canal or groundwater support."
+      ]
+    },
+    {
+      "tag": "q97",
+      "patterns": [
+        "What is irrigated agricultural land?",
+        "Define irrigated farmland"
+      ],
+      "response": [
+        "Irrigated agricultural land has access to artificial water supply systems like canals, borewells, or drip irrigation."
+      ]
+    },
+    {
+      "tag": "q98",
+      "patterns": [
+        "Can I buy agricultural land for investment purposes?",
+        "Is farmland a good investment option?"
+      ],
+      "response": [
+        "Yes, many investors buy agricultural land for long-term returns and tax benefits, though usage restrictions apply."
+      ]
+    },
+    {
+      "tag": "q99",
+      "patterns": [
+        "What is agricultural land conversion?",
+        "Meaning of farmland conversion"
+      ],
+      "response": [
+        "It is the legal process of changing land use from agricultural to residential, commercial, or industrial."
+      ]
+    },
+    {
+      "tag": "q100",
+      "patterns": [
+        "What is agricultural land tax?",
+        "Explain tax on farmland"
+      ],
+      "response": [
+        "Agricultural land tax is a property tax levied by local authorities based on landholding size and usage."
+      ]
+    },
+    {
+      "tag": "q101",
+      "patterns": [
+        "What is a land survey number?",
+        "Survey number in farmland"
+      ],
+      "response": [
+        "A survey number is a unique identifier assigned to a specific piece of land in government records."
+      ]
+    },
+    {
+      "tag": "q102",
+      "patterns": [
+        "What is the difference between freehold and leasehold agricultural land?",
+        "Freehold vs leasehold farmland"
+      ],
+      "response": [
+        "Freehold land grants permanent ownership, while leasehold land is owned for a fixed lease period."
+      ]
+    },
+    {
+      "tag": "q103",
+      "patterns": [
+        "Can agricultural land be mortgaged?",
+        "Is it possible to take loan against farmland?"
+      ],
+      "response": [
+        "Yes, agricultural land can be mortgaged to banks or financial institutions as collateral for loans."
+      ]
+    },
+    {
+      "tag": "q104",
+      "patterns": [
+        "What is SEZ land in agriculture?",
+        "Special Economic Zone agricultural land"
+      ],
+      "response": [
+        "SEZ land is designated for industrial and commercial use; agricultural activities are usually restricted there."
+      ]
+    },
+    {
+      "tag": "q105",
+      "patterns": [
+        "What is agricultural tenancy?",
+        "Define tenancy in farmland"
+      ],
+      "response": [
+        "Agricultural tenancy is when a farmer cultivates land owned by another person by paying rent or share of produce."
+      ]
+    },
+    {
+      "tag": "q106",
+      "patterns": [
+        "Can agricultural land be subdivided?",
+        "Is farmland division allowed?"
+      ],
+      "response": [
+        "Yes, agricultural land can be subdivided legally with approval from revenue authorities."
+      ]
+    },
+    {
+      "tag": "q107",
+      "patterns": [
+        "What is agricultural land fragmentation?",
+        "Explain farmland fragmentation"
+      ],
+      "response": [
+        "Land fragmentation is the division of farmland into smaller, non-contiguous parcels, reducing farming efficiency."
+      ]
+    },
+    {
+      "tag": "q108",
+      "patterns": [
+        "What is agricultural land ceiling act?",
+        "Land ceiling rules in India"
+      ],
+      "response": [
+        "The Agricultural Land Ceiling Act limits the maximum area of farmland an individual or family can own."
+      ]
+    },
+    {
+      "tag": "q109",
+      "patterns": [
+        "Can agricultural land be acquired by government?",
+        "Government land acquisition of farmland"
+      ],
+      "response": [
+        "Yes, the government can acquire agricultural land for public purposes with compensation to owners."
+      ]
+    },
+    {
+      "tag": "q110",
+      "patterns": [
+        "What is land consolidation in agriculture?",
+        "Explain farmland consolidation"
+      ],
+      "response": [
+        "Land consolidation combines fragmented plots into a single, larger farm unit to improve efficiency."
+      ]
+    },
+    {
+      "tag": "q111",
+      "patterns": [
+        "What is agricultural land leasing?",
+        "Explain leasing of farmland"
+      ],
+      "response": [
+        "Agricultural land leasing allows a farmer to use another’s land for cultivation by paying rent or revenue share."
+      ]
+    },
+    {
+      "tag": "q112",
+      "patterns": [
+        "What is agricultural land acquisition act?",
+        "Law for land acquisition in agriculture"
+      ],
+      "response": [
+        "The Right to Fair Compensation and Transparency in Land Acquisition Act governs how farmland can be acquired for projects."
+      ]
+    },
+    {
+      "tag": "q113",
+      "patterns": [
+        "Can NRIs buy agricultural land in India?",
+        "Is it legal for NRI to purchase farmland?"
+      ],
+      "response": [
+        "No, NRIs are generally not allowed to buy agricultural land in India, except in special cases with RBI and government approval."
+      ]
+    },
+    {
+      "tag": "q114",
+      "patterns": [
+        "What is agricultural landholding?",
+        "Meaning of landholding in agriculture"
+      ],
+      "response": [
+        "Agricultural landholding refers to the size of land a farmer or family owns or cultivates."
+      ]
+    },
+    {
+      "tag": "q115",
+      "patterns": [
+        "What is dry agricultural land?",
+        "Explain dry farmland"
+      ],
+      "response": [
+        "Dry agricultural land is land without assured irrigation facilities, dependent mainly on rainfall."
+      ]
+    },
+    {
+      "tag": "q116",
+      "patterns": [
+        "What is wet agricultural land?",
+        "Define wet farmland"
+      ],
+      "response": [
+        "Wet agricultural land has regular irrigation or natural water sources, making it suitable for paddy and water-intensive crops."
+      ]
+    },
+    {
+      "tag": "q117",
+      "patterns": [
+        "What is a land mutation record?",
+        "Meaning of land mutation in agriculture"
+      ],
+      "response": [
+        "Mutation is the process of updating land ownership records after sale, transfer, or inheritance."
+      ]
+    },
+    {
+      "tag": "q118",
+      "patterns": [
+        "What is agricultural land revenue?",
+        "Explain land revenue in agriculture"
+      ],
+      "response": [
+        "Agricultural land revenue is the tax collected by the government from landowners based on cultivation and area."
+      ]
+    },
+    {
+      "tag": "q119",
+      "patterns": [
+        "What is khasra number?",
+        "Explain khasra in land records"
+      ],
+      "response": [
+        "A khasra number is a plot number assigned to a piece of agricultural land in village records."
+      ]
+    },
+    {
+      "tag": "q120",
+      "patterns": [
+        "What is khata number?",
+        "Define khata in land records"
+      ],
+      "response": [
+        "A khata number is an account number assigned to a landholder, grouping multiple plots under one ownership."
+      ]
+    },
+    {
+      "tag": "q121",
+      "patterns": [
+        "What is jamabandi record?",
+        "Explain jamabandi in land records"
+      ],
+      "response": [
+        "Jamabandi is the record of rights maintained by the revenue department, listing landowners and cultivation details."
+      ]
+    },
+    {
+      "tag": "q122",
+      "patterns": [
+        "What is a patta document?",
+        "Define patta in agriculture land"
+      ],
+      "response": [
+        "Patta is a land ownership document issued by the government, especially in southern states like Tamil Nadu."
+      ]
+    },
+    {
+      "tag": "q123",
+      "patterns": [
+        "What is a chitta document?",
+        "Chitta meaning in farmland records"
+      ],
+      "response": [
+        "Chitta is a revenue record in Tamil Nadu that shows land classification as wetland or dry land."
+      ]
+    },
+    {
+      "tag": "q124",
+      "patterns": [
+        "What is encumbrance certificate for land?",
+        "Explain EC in farmland purchase"
+      ],
+      "response": [
+        "An encumbrance certificate proves that the land is free from legal dues, mortgages, or disputes."
+      ]
+    },
+    {
+      "tag": "q125",
+      "patterns": [
+        "What is a land possession certificate?",
+        "Define possession certificate in farmland"
+      ],
+      "response": [
+        "A possession certificate is issued by local authorities confirming that the buyer has taken legal possession of land."
+      ]
+    },
+    {
+      "tag": "q126",
+      "patterns": [
+        "What is a land sale deed?",
+        "Explain sale deed in agriculture"
+      ],
+      "response": [
+        "A sale deed is the legal document transferring land ownership from seller to buyer after registration."
+      ]
+    },
+    {
+      "tag": "q127",
+      "patterns": [
+        "What is agricultural land registry?",
+        "Explain farmland registration process"
+      ],
+      "response": [
+        "It is the official process of recording land ownership details in government records after purchase."
+      ]
+    },
+    {
+      "tag": "q128",
+      "patterns": [
+        "What is a land title deed?",
+        "Meaning of title deed in agriculture"
+      ],
+      "response": [
+        "A title deed is a legal document proving a person’s ownership rights over agricultural land."
+      ]
+    },
+    {
+      "tag": "q129",
+      "patterns": [
+        "What is agricultural land classification?",
+        "Types of agricultural land in records"
+      ],
+      "response": [
+        "Land is classified as dry, wet, barren, pasture, or cultivable based on usage and fertility."
+      ]
+    },
+    {
+      "tag": "q130",
+      "patterns": [
+        "What is a land revenue receipt?",
+        "Define revenue receipt for farmland"
+      ],
+      "response": [
+        "It is proof of payment of land revenue/tax to the government by the landholder."
+      ]
+    },
+    {
+      "tag": "q131",
+      "patterns": [
+        "What is agricultural land dispute?",
+        "Explain farmland disputes"
+      ],
+      "response": [
+        "Disputes arise due to unclear titles, inheritance issues, tenancy claims, or encroachments."
+      ]
+    },
+    {
+      "tag": "q132",
+      "patterns": [
+        "What is agricultural land inheritance?",
+        "Explain inheritance of farmland"
+      ],
+      "response": [
+        "Agricultural land inheritance is the transfer of land ownership to legal heirs after the owner’s death."
+      ]
+    },
+    {
+      "tag": "q133",
+      "patterns": [
+        "What is agricultural land ceiling limit?",
+        "Maximum farmland ownership allowed"
+      ],
+      "response": [
+        "The ceiling limit is the maximum area of farmland an individual or family can own under state laws."
+      ]
+    },
+    {
+      "tag": "q134",
+      "patterns": [
+        "What is agricultural land allotment?",
+        "Explain allotment of farmland"
+      ],
+      "response": [
+        "Agricultural land allotment refers to government distribution of land to farmers, landless individuals, or cooperatives."
+      ]
+    },
+    {
+      "tag": "q135",
+      "patterns": [
+        "What is wasteland in agriculture?",
+        "Meaning of wasteland in farmland"
+      ],
+      "response": [
+        "Wasteland is land that is not suitable for cultivation due to degradation, erosion, or poor fertility."
+      ]
+    },
+    {
+      "tag": "q136",
+      "patterns": [
+        "What is common land in agriculture?",
+        "Explain common land usage"
+      ],
+      "response": [
+        "Common land is shared land used by a community for grazing, water collection, or other collective purposes."
+      ]
+    },
+    {
+      "tag": "q137",
+      "patterns": [
+        "Connect with an agent",
+        "How to connect with real estate agent?",
+        "connect with agent",
+        "talk to agent",
+        "contact agent"
+      ],
+      "response": [
+        "You can connect with a real estate agent through the contact options provided on the 2Bigha platform",
+        "such as phone(+ 123-456-7890)",
+        "email(2bigha@example.com)",
+        "or chat(2Bigha Chat Support)"
+      ]
+    },
+    {
+      "tag": "q138",
+      "patterns": [
+        
+
   ]
 }
