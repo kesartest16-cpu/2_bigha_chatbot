@@ -1388,26 +1388,21 @@
         "Common land is shared land used by a community for grazing, water collection, or other collective purposes."
       ]
     },
+    
     {
-      "tag": "q137",
+            "tag": "q137",
       "patterns": [
-        "Connect with an agent",
-        "How to connect with real estate agent?",
-        "connect with agent",
-        "talk to agent",
-        "contact agent"
+        "Hi",
+        "Hello",
+        "Hey",
+        "Greetings",
+        "Good day"
       ],
       "response": [
-        "You can connect with a real estate agent through the contact options provided on the 2Bigha platform",
-        "such as phone(+ 123-456-7890)",
-        "email(2bigha@example.com)",
-        "or chat(2Bigha Chat Support)"
-      ]
-    },
-    {
-      "tag": "q138",
-      "patterns": [
+        "Hello! How can I assist you today?"
         
-
-  ]
+      ]
+    }
+  ] 
 }
+
